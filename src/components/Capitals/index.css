@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: 'Roboto';
+}
+.bg-container {
+  background-color: #93c5fd;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.container {
+  padding: 60px;
+  background-color: #f8fafc;
+  height: 40vh;
+  width: 45%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 7px;
+}
+h1 {
+  font-size: 40px;
+}
+select {
+  margin-top: 20px;
+  width: 35%;
+  height: 38px;
+  padding: 8px;
+  font-weight: bold;
+}
+.drop-down {
+  display: flex;
+  flex-direction: row;
+}
+.text {
+  margin-top: 26px;
+  margin-left: 10px;
+  font-size: 18px;
+}
+.text1 {
+  margin-top: 50px;
+  font-size: 22px;
+  font-weight: bold;
+}
